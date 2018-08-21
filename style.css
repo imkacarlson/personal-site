@@ -1,0 +1,158 @@
+/* https://www.w3schools.com/css/css_navbar.asp */
+
+.intro{
+	font-size:130%;
+	font-family: Cantarell;
+}
+
+body{
+	background-color: #82A0BC 
+}
+
+h1{
+	font-family: "Courier New", Courier, monospace;
+	text-align: center;
+	font-size: 200%;
+	}
+	
+h2{
+	font-family: "Courier New", Courier, monospace;
+	text-align:center;
+	font-size: 150%;
+}
+
+h3{
+	font-family: "Courier New", Courier, monospace;
+	font-size: 135%;
+}
+
+.dayWeek{
+	font-family: "Courier New", Courier, monospace;
+	font-size: 125%;
+	margin-left: 2%;
+}
+
+
+.roster_pic{
+	width:30%;
+	height:auto;
+	padding-top: 1%;
+	padding-left: 35%;
+
+}
+
+.xc_track_pic{
+	width:50%;
+	height:auto;
+	display:block;
+	margin: auto;
+}
+
+.center_text{
+	text-align:center;
+	font-size:120%;
+	font-family: Cantarell;
+}
+
+.navbar{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #353128;
+}
+.nav_list{
+	float:left;
+		border-right: 1px solid #bbb;
+}
+
+.nav_list a{
+	display: block;
+	color:white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.nav_list:last-child{
+	border-right: none;
+}
+
+.nav_list a:hover{
+	background-color: #AB2B42;
+}
+
+.active{
+	background-color: #AB2B42;
+}
+
+.table{
+	display: table;
+	margin: auto;
+    width: 76 px;
+    padding: 10px;
+}
+
+#toTopBtn{
+	display: none;
+	position: fixed;
+	bottom: 1%;
+	right: 2%;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: #353128;
+	cursor: pointer;
+	padding: .5%;
+	border-radius: 5px;
+	color: white;
+	font-family: "Courier New", Courier, monospace;
+	text-size: medium;
+}
+
+#toTopBtn:hover{
+	background-color: #AB2B42;
+	
+}
+.dropdown_content{
+	display: none;
+	position: absolute;
+	background-color: #353128;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 8px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.dropdown_content a:hover{
+	background-color: #AB2B42;
+}
+
+.dropdown:hover .dropdown_content{
+	display:block;
+}
+
+.soc_media_pic{
+	width:10%;
+	height: auto;
+	margin-left:5%;
+}
+
+.soc_media_pic_first{
+	width:10%;
+	height: auto;
+}
+
+.class_schedule{
+	font-family: "Courier New", Courier, monospace;
+	font-size: 120%;
+}
+
+.classDesc{
+	font-family: Cantarell;
+	font-size: 120%;
+	margin-left:2.5%;
+}
+
+
+
+
