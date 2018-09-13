@@ -1,0 +1,10 @@
+#toTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 1%;
+    right: 2%;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
