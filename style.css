@@ -91,3 +91,6 @@ img {
 .footer-text {
     color: rgba(0,0,0,.5);
 }
+.center_text{
+    text-align: center;
+}
