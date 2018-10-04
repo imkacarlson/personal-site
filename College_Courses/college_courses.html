@@ -9,11 +9,14 @@
         crossorigin="anonymous">
     <!-- My CSS -->
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="../to_top_btn.css">
 </head>
 
 <body>
+    <button type="button" class="btn btn-secondary" onclick="topFunction()" id="toTopBtn" title="Go To Top" style="display: hidden;">Back
+        To Top</button>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Keith Carlson Jr.</a>
+        <a class="navbar-brand" href="../index.html">Keith Carlson Jr.</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -21,7 +24,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -29,14 +32,17 @@
                         Security/Crypto & Other Projects
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="Junior_Seminar_Cryptography_Project/junior_seminar_2018.html">Junior
-                            Seminar Cryptography Project</a>
-                        <a class="dropdown-item" href="Data_Science_Project/data_science_2018.html">Data Science
-                            Project Spring 2018</a>
-                        <a class="dropdown-item" href="Tools_And_Utilities/tools_utilities.html">Tools and Utilities</a>
+                        <a class="dropdown-item" href="../Junior_Seminar_Cryptography_Project/junior_seminar_2018.html">Junior
+                            Seminar
+                            Cryptography Project</a>
+                        <a class="dropdown-item" href="../Data_Science_Project/data_science_2018.html">Data Science
+                            Project Spring
+                            2018</a>
+                        <a class="dropdown-item" href="../CS_Thesis/undergrad_cs_thesis.html">Senior Computer Science
+                            Thesis</a>
+                        <a class="dropdown-item" href="../Tools_And_Utilities/tools_utilities.html">Tools and Utilities</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="Security_Crypto_Other_Projects/NCL_Documents/Keith_NCL_ScoutingReport.pdf">National
-                            Cyber League Scouting Report</a>
+                        <a class="dropdown-item" href="../Security_Crypto_Other_Projects/NCL_Documents/Keith_NCL_ScoutingReport.pdf" target="_blank">National Cyber League Scouting Report</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -45,24 +51,34 @@
                         Cross Country & Track
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="Cross_Country_Track/xc_track.html#fall_2015">Fall 2015</a>
-                        <a class="dropdown-item" href="Cross_Country_Track/xc_track.html#spring_2016">Spring 2016</a>
+                        <a class="dropdown-item" href="../Cross_Country_Track/xc_track.html#fall_2015">Fall 2015</a>
+                        <a class="dropdown-item" href="../Cross_Country_Track/xc_track.html#spring_2016">Spring 2016</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="Cross_Country_Track/xc_track.html#fall_2016">Fall 2016</a>
-                        <a class="dropdown-item" href="Cross_Country_Track/xc_track.html#spring_2017">Spring 2017</a>
+                        <a class="dropdown-item" href="../Cross_Country_Track/xc_track.html#fall_2016">Fall 2016</a>
+                        <a class="dropdown-item" href="../Cross_Country_Track/xc_track.html#spring_2017">Spring 2017</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="Cross_Country_Track/xc_track.html#fall_2017">Fall 2017</a>
+                        <a class="dropdown-item" href="../Cross_Country_Track/xc_track.html#fall_2017">Fall 2017</a>
+                        <a class="dropdown-item" href="../Cross_Country_Track/xc_track.html#spring_2018">Spring 2018</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown active">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">College Courses</a>
                     <div class="dropdown-menu" aria-labellby="navbarDropdown">
-                        <a class="dropdown-item" href="College_Courses/college_courses.html">Fall 2015</a>
+                        <a class="dropdown-item" href="../College_Courses/college_courses.html#fall_2015">Fall 2015</a>
+                        <a class="dropdown-item" href="../College_Courses/college_courses.html#spring_2016">Spring 2016</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="../College_Courses/college_courses.html#fall_2016">Fall 2016</a>
+                        <a class="dropdown-item" href="../College_Courses/college_courses.html#spring_2017">Spring 2017</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="../College_Courses/college_courses.html#fall_2017">Fall 2017</a>
+                        <a class="dropdown-item" href="../College_Courses/college_courses.html#spring_2018">Spring 2018</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="../College_Courses/college_courses.html#fall_2018">Fall 2018</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
+                    <a class="nav-link" href="../Public_Keith_Carlson_Jr_Resume.pdf" target="_blank">Resume</a>
                 </li>
             </ul>
             <span class="navbar-text">
@@ -94,7 +110,10 @@
                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                     <div class="card-body">
                         <h6>Monday, Wednesday, Friday 8:00 - 9:00 AM</h6>
-                        I took two years of Spanish in high school but that was freshman and sophomore year so I do not think I could have tested out of any of the language requirements. I decided to take German just because it seemed new and fun. It ended up going well I think the coolest part was learning a lot about German culture.
+                        I took two years of Spanish in high school but that was freshman and sophomore year so I do not
+                        think I could have tested out of any of the language requirements. I decided to take German
+                        just because it seemed new and fun. It ended up going well I think the coolest part was
+                        learning a lot about German culture.
                     </div>
                 </div>
             </div>
@@ -110,7 +129,12 @@
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                     <div class="card-body">
                         <h6>Monday, Wednesday, Friday 9:10 - 10:10 AM</h6>
-                        I decided to take this math class because it is required for the Computer Science major. I am certain I want to major in computer science and I want to get the math out of the way ASAP so why not start now. The toughest part of this class was that it was Accelerated so it was basically two classes in one semester. When the normal midterms were going on we were having out final for 152 and a quarter of the way into the semester we had our midterm. It was a big change from High School but I enjoyed the challenge.
+                        I decided to take this math class because it is required for the Computer Science major. I am
+                        certain I want to major in computer science and I want to get the math out of the way ASAP so
+                        why not start now. The toughest part of this class was that it was Accelerated so it was
+                        basically two classes in one semester. When the normal midterms were going on we were having
+                        out final for 152 and a quarter of the way into the semester we had our midterm. It was a big
+                        change from High School but I enjoyed the challenge.
                     </div>
                 </div>
             </div>
@@ -126,7 +150,11 @@
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                     <div class="card-body">
                         <h6>Monday, Wednesday, Friday 10:20 - 11:20 AM (Lecture), 1:50 - 2:50 PM (Lab)</h6>
-                        I want to major in Computer Science so this is the first step! I had taken AP Computer Science in high school but taking an intro class again was beyond helpful. The professor was great and I learned so many new things. Also, each Computer Science class has a lab section. In lab we work on our homework and can get help from the Professor, fellow classmates, and a TA. It is really nice to have this because I could get my homework done most of the time.
+                        I want to major in Computer Science so this is the first step! I had taken AP Computer Science
+                        in high school but taking an intro class again was beyond helpful. The professor was great and
+                        I learned so many new things. Also, each Computer Science class has a lab section. In lab we
+                        work on our homework and can get help from the Professor, fellow classmates, and a TA. It is
+                        really nice to have this because I could get my homework done most of the time.
                     </div>
                 </div>
             </div>
@@ -142,18 +170,579 @@
                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                     <div class="card-body">
                         <h6>Monday, Wednesday, Friday 12:40 - 1:40 PM</h6>
-                        This is a required thing for all incoming freshman at Willamette. We got to choose Colloquium topics that seemed interesting and they would put us in one of our five choices. I don't think Genres of the Self was on the top of my list, I don't even remember selecting it. I was nervous about how it would turn out. All of my nervousness quickly went away because this class was so much fun. I had a blast. We learned about different ways we form our identities and the readings were all interesting and the Professor was phenomenal. Great class.
+                        This is a required thing for all incoming freshman at Willamette. We got to choose Colloquium
+                        topics that seemed interesting and they would put us in one of our five choices. I don't think
+                        Genres of the Self was on the top of my list, I don't even remember selecting it. I was nervous
+                        about how it would turn out. All of my nervousness quickly went away because this class was so
+                        much fun. I had a blast. We learned about different ways we form our identities and the
+                        readings were all interesting and the Professor was phenomenal. Great class.
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    &nbsp
+    <!-- Spring 2016 -->
+    <a id="spring_2016"></a>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="text-center">
+                    <h1>Spring 2016</h1>
+                </div>
+            </div>
+        </div>
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingFive">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFive"
+                            aria-expanded="true" aria-controls="collapseFive">
+                            GERM 132: Elementray German II
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseFive" class="collapseFive show" aria-labelledby="headingFive" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h6>Monday, Wednesday, Friday 9:10 - 10:10 AM</h6>
+                        Continuing the path of German, after this I am halfway there. (2 years of language required to
+                        graduate).
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingSix">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix"
+                            aria-expanded="false" aria-controls="collapseSix">
+                            CS 241: Data Structures
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h6>Monday, Wednesday, Friday 11:30 - 12:30 PM (Lecture), 12:40 - 1:40 PM (Lab)</h6>
+                        Also continuing along the computer science path. This was a really fun class. Intro prepared me
+                        well and now I was diving into completely new stuff.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingSeven">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven"
+                            aria-expanded="false" aria-controls="collapseSeven">
+                            MATH 251W Foundations of Advanced Math
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h6>Monday, Wednesday, Friday 1:50 - 2:50 PM</h6>
+                        This is the last required math course needed in the Computer Science major! Yay no more math
+                        for me!!! But wait ... upon finishing this class I realized I have had a blast. This class was
+                        unlike anything I had taken before, it was not computational. We learned about math logic and
+                        proof writing. It was super cool! I have realized that I do not want to stop taking math. The
+                        Professor of this class is teaching a 400 level (highest level course) Geometry class next
+                        semester and he said I should take it, but to take the class I need Linear Algebra. He said
+                        that I can take Linear Algebra in conjunction with it. We'll see how registration goes but it
+                        looks like I am going to double up on math next semester. I never would have guessed I was
+                        going to go down this route.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingEight">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight"
+                            aria-expanded="false" aria-controls="collapseEight">
+                            REL 116: Intro to Major Religious Texts
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h6>Tuesday, Thursday 9:40 - 11:10 AM</h6>
+                        This is a class that fulfills a requirement in the Liberal Arts graduation requirements. It was
+                        a very interesting class. There were also two professors who taught the course in conjunction
+                        so that was cool.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    &nbsp
+    <!-- Fall 2016 -->
+    <a id="fall_2016"></a>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="text-center">
+                    <h1>Fall 2016</h1>
+                </div>
+            </div>
+        </div>
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingNine">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseNine"
+                            aria-expanded="true" aria-controls="collapseNine">
+                            GERM 231: Intermediate German I
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseNine" class="collapseNine show" aria-labelledby="headingNine" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h6>Monday, Wednesday, Friday 9:10 - 10:10 AM</h6>
+                        Just moving through the German once class at a time. I have the same Professor I have always
+                        had so that is nice to have.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTen">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen"
+                            aria-expanded="false" aria-controls="collapseTen">
+                            CS 451 Topics in Computer Science: Automata Theory
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h6>Monday, Wednesday, Friday 10:20 - 11:20 PM (Lecture), 11:30 - 12:30 PM (Lab)</h6>
+                        It was interesting to take a theory based computer science class. I learned a lot of new things
+                        so that was cool.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingEleven">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEleven"
+                            aria-expanded="false" aria-controls="collapseEleven">
+                            MATH 476: Modern Geomertey
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h6>Monday, Wednesday, Friday 1:50 - 2:50 PM</h6>
+                        This was a big step up in level of math. I was overwhelmed at first but then started to figure
+                        things out. It was a really fun class, we had a small class and one of the highlights was that
+                        at the end of the semester we went to a local high school and presented on some of the things
+                        that we learned.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwelve">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwelve"
+                            aria-expanded="false" aria-controls="collapseTwelve">
+                            MATH 253: Linear Alegbra
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h6>Tuesday, Thursday 12:50 - 2:20 PM</h6>
+                        Fun class, it took some time for me to balance my homework load with this being my second math
+                        class but after getting settled I got into a good system that worked. Completing this class and
+                        the geometry one puts on me on a good track for not only a math minor but also a math major. I
+                        am thinking this point I am going to double major in both Math and Computer Science!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    &nbsp
+    <!-- Spring 2017 -->
+    <a id="spring_2017"></a>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="text-center">
+                    <h1>Spring 2017</h1>
+                </div>
+            </div>
+        </div>
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingThirteen">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThirteen"
+                            aria-expanded="true" aria-controls="collapseThirteen">
+                            GERM 232: Intermediate German II
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseThirteen" class="collapseThirteen show" aria-labelledby="headingThirteen" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h6>Monday, Wednesday, Friday 9:10 - 10:10 AM</h6>
+                        Last German class. Going to miss it a bit but I do not really have space to take more German
+                        now that I want to double major in math and computer science.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFourteen">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFourteen"
+                            aria-expanded="false" aria-controls="collapseFourteen">
+                            ANTH 150: Controversies/Issues: Cultural Anthropology
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseFourteen" class="collapse" aria-labelledby="headingFourteen" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h6>Monday, Wednesday, Friday 11:30 - 12:30 PM</h6>
+                        This was an out of the blue super fun class. I have really enjoyed these random liberal arts
+                        classes and this one did not disappoint! For our final project we had to visit a new place and
+                        write about it. I choose to attend church for a few weeks at a local Quaker church and that was
+                        especially interesting.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFifteen">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFifteen"
+                            aria-expanded="false" aria-controls="collapseFifteen">
+                            CS 353: Architecture and Compilers
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseFifteen" class="collapse" aria-labelledby="headingFifteen" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h6>Monday, Wednesday, Friday 1:50 - 2:50 PM (Lecture), 3:00 - 4:00 PM (Lab)</h6>
+                        This was a fun class, I learned a lot more about how computers work and operate on a low level.
+                        After this class it is crazy to see how "high-level" Java really is.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingSixteen">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSixteen"
+                            aria-expanded="false" aria-controls="collapseSixteen">
+                            MATH 376 Topic: Graph Theory
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseSixteen" class="collapse" aria-labelledby="headingSixteen" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h6>Tuesday, Thursday 9:40 - 11:10 AM</h6>
+                        This class was insane! It was so much fun and so much work. The stuff was really interesting
+                        during lectures in class but some of the problems were really tough for me. For some reason the
+                        methods for solving proofs in Graph Theory did not come naturally for me. I would work really
+                        long on a problem only to find out I am going in the wrong direction. I learned to utilize the
+                        Professor for questions as much as possible and I was able to get through it. Overall I enjoyed
+                        it I have just never had a class be so challenging for me as this.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    &nbsp
+    <div class="text-center">I also officially declared a double major in Computer Science and Mathematics at the end
+        of this school year! Very exciting!</div>
+    &nbsp
+    <!-- Fall 2017 -->
+    <a id="fall_2017"></a>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="text-center">
+                    <h1>Fall 2017</h1>
+                </div>
+            </div>
+        </div>
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingSeventeen">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSeventeen"
+                            aria-expanded="true" aria-controls="collapseSeventeen">
+                            HIST 113: Topics in US History/Early Period
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseSeventeen" class="collapseSeventeen show" aria-labelledby="headingSeventeen"
+                    data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h6>Monday, Wednesday, Friday 9:10 - 10:10 AM</h6>
+                        This was a great class. I thought I had learned enough about the American Revolution and The
+                        Civil War in high school but I was very wrong. In this class we went much deeper and I learned
+                        a lot of new things and had a good time.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingEighteen">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEighteen"
+                            aria-expanded="false" aria-controls="collapseEighteen">
+                            MATH 476: Abstract Algebra I
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseEighteen" class="collapse" aria-labelledby="headingEighteen" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h6>Monday, Wednesday, Friday 12:40 - 1:40 PM</h6>
+                        Certainly one of the hardest classes I have taken in my life. The content was super interesting
+                        but the homework was tough. I learned a lot about my ability to stay persistent when things get
+                        tough. I also learned just how great of a resource the Professor can be during office hours to
+                        help me out. In the end I got through the class and I am glad I took it. With this class done I
+                        am close to finishing up the math major.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingNineteen">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNineteen"
+                            aria-expanded="false" aria-controls="collapseNineteen">
+                            CS 203X: Problem Solving/NCL Contest
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseNineteen" class="collapse" aria-labelledby="headingNineteen" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h6>Wednesday 2:30 - 5:30 PM</h6>
+                        This class was a pass/fail only class that was basically like being in a club. We had a
+                        Professor oversee us as we spent the first few classes preparing to compete in the Nation Cyber
+                        League (NCL). The main part of the competition was the Fall Regular Season. Here is my <a href="../Security_Crypto_Other_Projects/NCL_Documents/Keith_NCL_Participation.pdf"
+                            target="_blank"> Participation Certificate</a> and <a href="../Security_Crypto_Other_Projects/NCL_Documents/Keith_NCL_ScoutingReport.pdf"
+                            target="_blank"> Scouting Report</a> from the fall regular season. This ethical hacking
+                        stuff is probably the thing I've had the most fun in with computing. As of now my dream job
+                        would be in computer security.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwenty">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwenty"
+                            aria-expanded="false" aria-controls="collapseTwenty">
+                            CS 389 Computer Science Junior Seminar
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwenty" class="collapse" aria-labelledby="headingTwenty" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h6>Tuesday, Thursday 8:00 - 9:30 AM (Lecture), 9:40 - 11:10 AM (Lab)</h6>
+                        In this class we got together in groups of three and all decided on a independent project to
+                        work on for the semester. My group members and I decided to learn about Cryptography. We knew
+                        nothing about it and we dove in and learned some new things. See <a href="../Junior_Seminar_Cryptography_Project/junior_seminar_2018.html"
+                            target="_blank">this page</a> for more info.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwentyOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwentyOne"
+                            aria-expanded="false" aria-controls="collapseTwentyOne">
+                            ENGL 116W: Top: Baldwin & the Black Essay
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwentyOne" class="collapse" aria-labelledby="headingTwentyOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h6>Tuesday, Thursday 12:50 - 2:20 PM</h6>
+                        Another amazing class. Had no idea what I was getting into and this class really challenged me
+                        with the reading and discussions. I learned a lot and am very glad I had this experience.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    &nbsp
+    <!-- Spring 2018 -->
+    <a id="spring_2018"></a>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="text-center">
+                    <h1>Spring 2018</h1>
+                </div>
+            </div>
+        </div>
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingTwentytwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwentytwo"
+                            aria-expanded="true" aria-controls="collapseTwentytwo">
+                            PHYS 221: Introductory Physics I
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseTwentytwo" class="collapseTwentytwo show" aria-labelledby="headingTwentytwo"
+                    data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h6>Monday, Wednesday, Friday 9:10 - 10:10 AM (Lecture), Wednesday 1:50 - 4:50 PM (Lab)</h6>
+                        This is my first natural science class. It is a part of the overall Liberal Arts requirements
+                        of the university.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwentythree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwentythree"
+                            aria-expanded="false" aria-controls="collapseTwentythree">
+                            MATH 249: Multivariable Calculus
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwentythree" class="collapse" aria-labelledby="headingTwentythree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h6>Monday, Wednesday, Friday 10:20 - 11:20 AM</h6>
+                        This is normally a class incoming freshman would take, I have taken a different route by
+                        working top down in the math major. It was great to take a class like this armed with a lot of
+                        upper level math experience. This was also the first computational math course I have taken
+                        since freshman year so it was nice to have that change.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwentyfour">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwentyfour"
+                            aria-expanded="false" aria-controls="collapseTwentyfour">
+                            CS 429 Topics: Data Science
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwentyfour" class="collapse" aria-labelledby="headingTwentyfour" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h6>Tuesday, Thursday 8:00 - 9:30 AM (Lecture), 9:40 - 11:10 AM (Lab)</h6>
+                        I never knew how up and coming Data Science is, this was a really cool class. We worked with R
+                        and Python and finished the semester with a big group project. Take a look at our <a href="../Data_Science_Project/data_science_2018.html"
+                            target="_blank">our project page</a> for more info!
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwentyfive">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwentyfive"
+                            aria-expanded="false" aria-controls="collapseTwentyfive">
+                            MUSC 210: Music of America
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwentyfive" class="collapse" aria-labelledby="headingTwentyfive" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h6>Tuesday, Thursday 12:50 - 2:20 PM</h6>
+                        Another class that exposed me to a whole new subject. Before this I had never given any thought
+                        to how the music we listen to today evolved. Very interesting class, glad I got the opportunity
+                        to take it.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fall 2018 -->
+    <a id="fall_2018"></a>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="text-center">
+                    <h1>Fall 2018</h1>
+                </div>
+            </div>
+        </div>
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingTwentysix">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwentysix"
+                            aria-expanded="true" aria-controls="collapseTwentysix">
+                            MATH 256: Differential Equations
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseTwentysix" class="collapseTwentysix show" aria-labelledby="headingTwentysix"
+                    data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h6>Monday, Wednesday, Friday 9:10 - 10:10 AM</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwentyseven">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwentyseven"
+                            aria-expanded="false" aria-controls="collapseTwentyseven">
+                            CS 354: Functional Programming
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwentyseven" class="collapse" aria-labelledby="headingTwentyseven" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h6>Monday, Wednesday, Friday 11:30 - 12:30 PM (Lecture), 12:40 - 1:40 PM (Lab)</h6>
+                        In the class we are currently working with <a href="https://www.haskell.org/" target="_blank">Haskell</a>.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwentyeight">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwentyeight"
+                            aria-expanded="false" aria-controls="collapseTwentyeight">
+                            MATH 356: Number Theory
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwentyeight" class="collapse" aria-labelledby="headingTwentyeight" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h6>Tuesday, Thursday 9:10 - 11:20 AM</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwentynine">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwentynine"
+                            aria-expanded="false" aria-controls="collapseTwentynine">
+                            CS 495W: Senior Seminar I
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwentynine" class="collapse" aria-labelledby="headingTwentynine" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h6>Tuesday, Thursday 2:30 - 4:00 PM</h6>
+                        This is the computer science thesis class! <a href="../CS_Thesis/undergrad_cs_thesis.html"
+                            target="_blank">Click Here</a> for my thesis project page.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="text-center">
+        <p class="footer-text">Thanks for visiting!</p>
+        <p class="footer-text">Keith Carlson · <a href="https://www.linkedin.com/in/imkacarlson/" target="_blank">LinkedIn</a>
+            · <a href="../Public_Keith_Carlson_Jr_Resume.pdf" target="_blank">Resume</a></p>
+    </div>
+    <hr>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+    <script src="../to_top_btn.js"></script>
 </body>
 
 </html>
